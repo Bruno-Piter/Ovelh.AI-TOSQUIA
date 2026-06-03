@@ -39,10 +39,12 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link href={`/${locale}`} className="flex items-center gap-3 shrink-0">
           <Image
-            src="/brand/logo.svg"
+            src="/brand/logo.png"
             alt="Ovelh.AI"
-            width={40}
-            height={40}
+            width={44}
+            height={44}
+            className="object-contain"
+            unoptimized
             priority
           />
           <span className="font-display text-lg font-bold tracking-tight">

@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "upload.wikimedia.org" },
     ],
   },
+  async rewrites() {
+    return [{ source: "/favicon.ico", destination: "/favicon-32.png" }];
+  },
 };
 
 export default withNextIntl(nextConfig);

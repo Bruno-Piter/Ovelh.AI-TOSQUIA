@@ -39,11 +39,12 @@ export default async function HomePage({ params }: Props) {
         <div className="relative flex justify-center">
           <div className="absolute inset-0 rounded-full bg-[#00d4ff]/10 blur-3xl" />
           <Image
-            src="/brand/logo.svg"
+            src="/brand/logo.png"
             alt="Ovelh.AI"
-            width={320}
-            height={320}
-            className="relative z-10 drop-shadow-[0_0_40px_rgba(0,212,255,0.35)]"
+            width={360}
+            height={360}
+            className="relative z-10 object-contain drop-shadow-[0_0_40px_rgba(0,212,255,0.35)]"
+            unoptimized
             priority
           />
         </div>
