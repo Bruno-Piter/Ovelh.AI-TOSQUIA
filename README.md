@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/ae5eaf5e-f890-478e-bc1b-6bc998273d3f
+
 <div align="center">
 
 # 🐑 Ovelh.AI — Tosquia Inteligente
