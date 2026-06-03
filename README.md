@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/ae5eaf5e-f890-478e-bc1b-6bc998273d3f
-
 <div align="center">
 
 # 🐑 Ovelh.AI — Tosquia Inteligente
@@ -20,7 +16,7 @@ Portal institucional + painel analítico sobre tosquia, equipamentos, raças e m
 </div>
 
 ---
-
+https://github.com/user-attachments/assets/ae5eaf5e-f890-478e-bc1b-6bc998273d3f
 ## Por que existe?
 
 A cadeia ovina merece mais do que planilhas soltas. O **Ovelh.AI** junta contexto de tosquia, catálogo de máquinas, perfil de raças e indicadores de mercado num só lugar — com gráficos animados, i18n e APIs agregadas num BFF em Next.js.
