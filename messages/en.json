@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Ovelh.AI — Intelligent Shearing",
+    "description": "Data, market insights and equipment for sheep shearing in Brazil and worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "shearing": "Shearing",
+    "equipment": "Equipment",
+    "breeds": "Breeds",
+    "market": "Market",
+    "about": "About"
+  },
+  "home": {
+    "tagline": "Intelligent & efficient shearing",
+    "heroTitle": "Shearing decisions backed by real data",
+    "heroSubtitle": "Flock size, productivity, gear and market trends in one place — built for shearers, producers and field teams.",
+    "ctaDashboard": "Open analytics dashboard",
+    "ctaBreeds": "Browse breeds",
+    "kpiSheep": "Sheep flock (BR)",
+    "kpiShorn": "Sheep shorn (BR)",
+    "kpiWool": "Wool trend (EU)",
+    "kpiYear": "Source IBGE PPM {year}",
+    "sectionInsights": "Why Ovelh.AI",
+    "insight1Title": "Verifiable data",
+    "insight1Text": "Population via GBADs/FAOSTAT, IBGE municipal livestock and SMARTER breeds — always with source and year.",
+    "insight2Title": "Interactive dashboard",
+    "insight2Text": "Charts that react to country, period and equipment filters with smooth transitions.",
+    "insight3Title": "Field-first",
+    "insight3Text": "Gear, techniques and trade glossary — language from the shed, not a generic template."
+  },
+  "dashboard": {
+    "title": "Analytics dashboard",
+    "subtitle": "Global filters apply to all charts below.",
+    "filters": "Filters",
+    "country": "Country (flock)",
+    "yearFrom": "Start year",
+    "yearTo": "End year",
+    "euState": "EU state (prices)",
+    "product": "Lamb category",
+    "heavyLamb": "Heavy lamb (EU_H)",
+    "lightLamb": "Light lamb (EU_L)",
+    "breedSearch": "Search breed",
+    "equipmentCompare": "Compare machines (up to 3)",
+    "chartPopulation": "Sheep flock — historical series",
+    "chartBrazil": "Brazil: flock vs shorn",
+    "chartRegions": "Sheep flock by region (BR)",
+    "chartLambPrices": "EU lamb prices (€/100 kg)",
+    "chartBreeds": "Breeds — genomic samples (SMARTER)",
+    "chartEquipment": "Shearing machine comparison",
+    "source": "Source",
+    "loading": "Loading data…",
+    "error": "Could not load. Showing local cache.",
+    "cached": "cached data",
+    "live": "live"
+  },
+  "shearing": {
+    "title": "The shearing trade",
+    "subtitle": "Technique, pace and safety in flock handling.",
+    "productivity": "Average productivity",
+    "season": "Seasonality",
+    "safety": "Safety",
+    "glossary": "Glossary"
+  },
+  "equipment": {
+    "title": "Shearing machines & clippers",
+    "subtitle": "Technical specs to compare models before buying.",
+    "compare": "Compare selected",
+    "power": "Power",
+    "rpm": "Speed",
+    "weight": "Weight",
+    "noise": "Noise",
+    "price": "Price range (ref.)",
+    "useCase": "Recommended use"
+  },
+  "breeds": {
+    "title": "Sheep breeds",
+    "subtitle": "Traits, purpose and educational market reference.",
+    "origin": "Origin",
+    "purpose": "Purpose",
+    "wool": "Wool",
+    "meat": "Meat",
+    "priceRange": "Estimated range",
+    "priceDisclaimer": "Educational values — not official quotes.",
+    "samples": "SMARTER samples"
+  },
+  "market": {
+    "title": "Market & trends",
+    "subtitle": "Compiled wool, lamb and export indicators.",
+    "woolTrend": "Wool trend",
+    "export": "Exports",
+    "euPrices": "EU prices"
+  },
+  "about": {
+    "title": "About Ovelh.AI",
+    "subtitle": "AgTech applied to sheep shearing.",
+    "vision": "Vision",
+    "dataSources": "Data sources"
+  },
+  "footer": {
+    "sources": "Sources",
+    "rights": "© {year} Ovelh.AI"
+  },
+  "lang": {
+    "pt": "PT",
+    "en": "EN"
+  }
+}

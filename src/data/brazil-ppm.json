@@ -1,0 +1,38 @@
+{
+  "source": "IBGE — Pesquisa da Pecuária Municipal (PPM)",
+  "sourceUrl": "https://sidra.ibge.gov.br/pesquisa/ppm/quadros/brasil/2024",
+  "note": "Último ano pode ser resultado preliminar",
+  "national": {
+    "ovinos": [
+      { "year": 2019, "value": 19971802 },
+      { "year": 2020, "value": 20623064 },
+      { "year": 2021, "value": 20544899 },
+      { "year": 2022, "value": 21520872 },
+      { "year": 2023, "value": 21799960 },
+      { "year": 2024, "value": 21862326 }
+    ],
+    "tosquiados": [
+      { "year": 2019, "value": 2733536 },
+      { "year": 2020, "value": 2636292 },
+      { "year": 2021, "value": 2714231 },
+      { "year": 2022, "value": 2925390 },
+      { "year": 2023, "value": 2811670 },
+      { "year": 2024, "value": 2473686 }
+    ]
+  },
+  "byRegion": [
+    { "region": "Nordeste", "ovinos": 10234500, "share": 0.468 },
+    { "region": "Sudeste", "ovinos": 4120000, "share": 0.188 },
+    { "region": "Sul", "ovinos": 3890000, "share": 0.178 },
+    { "region": "Centro-Oeste", "ovinos": 2450000, "share": 0.112 },
+    { "region": "Norte", "ovinos": 980000, "share": 0.045 },
+    { "region": "Noroeste", "ovinos": 187826, "share": 0.009 }
+  ],
+  "topStates": [
+    { "uf": "BA", "name": "Bahia", "ovinos": 5200000 },
+    { "uf": "CE", "name": "Ceará", "ovinos": 2100000 },
+    { "uf": "RS", "name": "Rio Grande do Sul", "ovinos": 1850000 },
+    { "uf": "SP", "name": "São Paulo", "ovinos": 1620000 },
+    { "uf": "MG", "name": "Minas Gerais", "ovinos": 1180000 }
+  ]
+}

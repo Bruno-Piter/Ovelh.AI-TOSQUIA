@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ovelh.AI — Portal de Tosquia Inteligente
 
-## Getting Started
+Site institucional e painel analítico sobre tosquia ovina, equipamentos e raças. Dados de **IBGE PPM**, **GBADs/FAOSTAT**, **EU Agridata** e **SMARTER-database**.
 
-First, run the development server:
+## Requisitos
+
+- Node.js 20+
+- npm 10+
+
+## Instalação
 
 ```bash
+cd C:\PROJETOS\Ovelh.AI-TOSQUIA
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000/pt](http://localhost:3000/pt) (português) ou `/en` (inglês).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Comando        | Descrição              |
+|----------------|------------------------|
+| `npm run dev`  | Servidor de desenvolvimento |
+| `npm run build`| Build de produção      |
+| `npm run start`| Servir build           |
+| `npm run lint` | ESLint                 |
 
-## Learn More
+## Estrutura
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/[locale]/` — páginas (PT/EN)
+- `src/app/api/` — proxies BFF para APIs externas
+- `src/data/` — JSON curado (IBGE, mercado UE, equipamentos)
+- `src/components/charts/` — gráficos ECharts com animação nos filtros
+- `public/brand/logo.svg` — logo (substitua por `logo.png` da marca se preferir)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Fontes de dados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Fonte | Uso |
+|-------|-----|
+| [IBGE PPM](https://sidra.ibge.gov.br/pesquisa/ppm) | Rebanho e ovinos tosquiados no Brasil |
+| [GBADs](https://gbadske.org/api/dataportal/) | População ovina por país (FAOSTAT) |
+| [EU Agridata](https://agridata.ec.europa.eu/) | Preços de cordeiro na UE |
+| [SMARTER](https://webserver.ibba.cnr.it/smarter-api/docs/) | Raças e amostras genômicas |
 
-## Deploy on Vercel
+## GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Repositório: [Bruno-Piter/Ovelh.AI-TOSQUIA](https://github.com/Bruno-Piter/Ovelh.AI-TOSQUIA)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git remote add origin https://github.com/Bruno-Piter/Ovelh.AI-TOSQUIA.git
+git push -u origin main
+```
+
+## Licença
+
+Projeto de demonstração Ovelh.AI — Bruno Piter.

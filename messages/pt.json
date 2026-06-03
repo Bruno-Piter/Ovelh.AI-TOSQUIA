@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Ovelh.AI — Tosquia Inteligente",
+    "description": "Dados, mercado e equipamentos para tosquia ovina no Brasil e no mundo."
+  },
+  "nav": {
+    "home": "Início",
+    "dashboard": "Painel",
+    "shearing": "Tosquia",
+    "equipment": "Equipamentos",
+    "breeds": "Raças",
+    "market": "Mercado",
+    "about": "Sobre"
+  },
+  "home": {
+    "tagline": "Tosquia inteligente & eficiente",
+    "heroTitle": "Decisões de tosquia com dados reais",
+    "heroSubtitle": "Rebanho, produtividade, equipamentos e tendências de mercado em um só lugar — pensado para tosquiadores, criadores e equipes de campo.",
+    "ctaDashboard": "Abrir painel analítico",
+    "ctaBreeds": "Explorar raças",
+    "kpiSheep": "Rebanho ovino (BR)",
+    "kpiShorn": "Ovinos tosquiados (BR)",
+    "kpiWool": "Tendência lã (UE)",
+    "kpiYear": "Fonte IBGE PPM {year}",
+    "sectionInsights": "Por que Ovelh.AI",
+    "insight1Title": "Dados verificáveis",
+    "insight1Text": "População via GBADs/FAOSTAT, pecuária municipal IBGE e raças SMARTER — sempre com fonte e ano.",
+    "insight2Title": "Painel interativo",
+    "insight2Text": "Gráficos que respondem a filtros de país, período e equipamento, com animação suave.",
+    "insight3Title": "Foco em campo",
+    "insight3Text": "Equipamentos, técnicas e glossário da profissão — linguagem de quem tosquia, não de template."
+  },
+  "dashboard": {
+    "title": "Painel analítico",
+    "subtitle": "Filtros globais aplicam-se a todos os gráficos abaixo.",
+    "filters": "Filtros",
+    "country": "País (rebanho)",
+    "yearFrom": "Ano inicial",
+    "yearTo": "Ano final",
+    "euState": "Estado UE (preços)",
+    "product": "Categoria cordeiro",
+    "heavyLamb": "Cordeiro pesado (EU_H)",
+    "lightLamb": "Cordeiro leve (EU_L)",
+    "breedSearch": "Buscar raça",
+    "equipmentCompare": "Comparar máquinas (até 3)",
+    "chartPopulation": "Rebanho ovino — série histórica",
+    "chartBrazil": "Brasil: rebanho vs tosquiados",
+    "chartRegions": "Rebanho ovino por região (BR)",
+    "chartLambPrices": "Preços cordeiro UE (€/100 kg)",
+    "chartBreeds": "Raças — amostras genômicas (SMARTER)",
+    "chartEquipment": "Comparativo tosquiadeiras",
+    "source": "Fonte",
+    "loading": "Carregando dados…",
+    "error": "Não foi possível carregar. Exibindo cache local.",
+    "cached": "dados em cache",
+    "live": "ao vivo"
+  },
+  "shearing": {
+    "title": "A profissão da tosquia",
+    "subtitle": "Técnica, ritmo e segurança no manejo do rebanho.",
+    "productivity": "Produtividade média",
+    "season": "Sazonalidade",
+    "safety": "Segurança",
+    "glossary": "Glossário"
+  },
+  "equipment": {
+    "title": "Tosquiadeiras & clipper",
+    "subtitle": "Especificações técnicas para comparar modelos antes da compra.",
+    "compare": "Comparar selecionados",
+    "power": "Potência",
+    "rpm": "Rotação",
+    "weight": "Peso",
+    "noise": "Ruído",
+    "price": "Faixa de preço (ref.)",
+    "useCase": "Uso indicado"
+  },
+  "breeds": {
+    "title": "Raças de ovelhas",
+    "subtitle": "Características, finalidade e referência de mercado educativa.",
+    "origin": "Origem",
+    "purpose": "Finalidade",
+    "wool": "Lã",
+    "meat": "Carne",
+    "priceRange": "Faixa estimada",
+    "priceDisclaimer": "Valores educativos — não constituem cotação oficial.",
+    "samples": "Amostras SMARTER"
+  },
+  "market": {
+    "title": "Mercado & tendências",
+    "subtitle": "Indicadores compilados de lã, cordeiro e exportação.",
+    "woolTrend": "Tendência lã",
+    "export": "Exportação",
+    "euPrices": "Preços UE"
+  },
+  "about": {
+    "title": "Sobre a Ovelh.AI",
+    "subtitle": "AgTech aplicada à tosquia ovina.",
+    "vision": "Visão",
+    "dataSources": "Fontes de dados"
+  },
+  "footer": {
+    "sources": "Fontes",
+    "rights": "© {year} Ovelh.AI"
+  },
+  "lang": {
+    "pt": "PT",
+    "en": "EN"
+  }
+}

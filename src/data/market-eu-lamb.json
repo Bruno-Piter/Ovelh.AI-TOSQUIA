@@ -1,0 +1,73 @@
+{
+  "source": "European Commission Agri-food Data Portal (fallback)",
+  "sourceUrl": "https://agridata.ec.europa.eu/extensions/DataPortal/sheep-and-goat-meat.html",
+  "unit": "EUR per 100 kg carcass weight",
+  "series": {
+    "PT": {
+      "EU_H": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 612.5 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 618.2 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 625.0 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 631.8 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 628.4 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 634.1 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 641.0 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 638.5 }
+      ],
+      "EU_L": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 548.0 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 552.3 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 558.7 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 561.2 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 559.8 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 564.5 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 570.2 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 567.9 }
+      ]
+    },
+    "ES": {
+      "EU_H": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 598.0 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 605.5 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 612.0 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 620.3 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 615.8 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 622.4 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 629.0 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 626.2 }
+      ],
+      "EU_L": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 535.0 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 540.2 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 545.8 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 550.1 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 548.3 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 553.0 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 558.6 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 556.4 }
+      ]
+    },
+    "FR": {
+      "EU_H": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 625.0 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 632.8 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 640.5 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 648.0 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 642.5 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 650.2 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 655.8 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 652.0 }
+      ],
+      "EU_L": [
+        { "week": "2024-W40", "beginDate": "30/09/2024", "price": 560.0 },
+        { "week": "2024-W44", "beginDate": "28/10/2024", "price": 565.5 },
+        { "week": "2024-W48", "beginDate": "25/11/2024", "price": 571.2 },
+        { "week": "2024-W52", "beginDate": "23/12/2024", "price": 575.8 },
+        { "week": "2025-W04", "beginDate": "20/01/2025", "price": 573.0 },
+        { "week": "2025-W08", "beginDate": "17/02/2025", "price": 578.4 },
+        { "week": "2025-W12", "beginDate": "17/03/2025", "price": 582.9 },
+        { "week": "2025-W16", "beginDate": "14/04/2025", "price": 580.1 }
+      ]
+    }
+  }
+}
