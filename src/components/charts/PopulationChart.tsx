@@ -21,13 +21,21 @@ export function PopulationChart({
   title,
   locale,
 }: Props) {
+  const fetchKey = `${country}|${yearFrom}|${yearTo}`;
   const [rows, setRows] = useState<Row[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const [activeKey, setActiveKey] = useState(fetchKey);
+
+  if (fetchKey !== activeKey) {
+    setActiveKey(fetchKey);
+    setLoading(true);
+    setRows([]);
+    setError(false);
+  }
 
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
     fetch(`/api/livestock/population?country=${encodeURIComponent(country)}&year=*`)
       .then((r) => r.json())
       .then((json) => {

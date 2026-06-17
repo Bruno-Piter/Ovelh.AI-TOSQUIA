@@ -5,9 +5,9 @@ import { ChartBase, chartTheme, baseGrid } from "./ChartBase";
 import type { EChartsOption } from "echarts";
 import ppm from "@/data/brazil-ppm.json";
 
-type Props = { title: string; locale: string };
+type Props = { title: string; locale?: string };
 
-export function RegionsChart({ title, locale }: Props) {
+export function RegionsChart({ title }: Props) {
   const regions = ppm.byRegion.map((r) => r.region);
   const values = ppm.byRegion.map((r) => r.ovinos);
 
